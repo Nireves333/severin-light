@@ -1,0 +1,89 @@
+:root {
+  --hero-line-color: hsl(235, 25%, 50%);
+  --line-color: hsl(236, 18%, 70%);
+  --background-color: hsl(235.1, 27.1%, 44.1%);
+  --btn-color: hsla(0, 0%, 2%, 0.473);
+  --modal-color: hsl(256, 36%, 29%);
+  --btn-text: hsl(0, 0%, 83%);
+  --project-card-bg: #ffffff00;
+  --text-color: hsl(0, 0%, 90.6%);
+  --form-text-color: hsl(235, 25%, 50%);
+  --footer-text-color: #8d8d8d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a,
+h2,
+h3,
+p {
+  font-family: 'Inter', monospace;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Jost', sans-serif;
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.sectionTitle {
+  margin-bottom: 5px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .mainContent {
+    margin-left: 400px;
+    padding: 20px;
+    width: calc(100% - 400px);
+    height: 100vh;
+    overflow-y: auto;
+  }
+}
