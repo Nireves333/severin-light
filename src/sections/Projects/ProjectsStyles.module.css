@@ -34,3 +34,13 @@
   gap: 20px;
   padding: 15px;
 }
+
+@media (max-width: 767px) and (min-width: 360px) {
+  .container {
+    img {
+      max-width: 150px;
+      align-self: center;
+      border-radius: 16px;
+    }
+  }
+}
