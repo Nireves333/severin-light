@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './ProjectsStyles.module.css';
 import Emporium from '../../assets/projects/Villagers-Vibe-Emporium.png';
+import PhotoPort from '../../assets/projects/PhotoPort.png';
 import Microplastics from '../../assets/projects/microplastics.png';
 import DbPharma from '../../assets/projects/DatabaseDesign.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -14,6 +15,12 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <hr />
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={PhotoPort}
+          link="https://nireves333.github.io/sample-web-photo"
+          h3="Mike Bahn's Portfolio Website"
+          p="Mock photogrophy portoflio"
+        />
         <ProjectCard
           src={Emporium}
           link="https://github.com/Nireves333/Vibe-Emporium"
