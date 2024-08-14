@@ -13,7 +13,7 @@ function About() {
         <p>
           Welcome! I'm a recent graduate from California State
           University, Monterey Bay, with a degree in Software
-          Developing.
+          Development.
         </p>
         <p>
           Besides programming, I enjoy reading and playing video games. My
