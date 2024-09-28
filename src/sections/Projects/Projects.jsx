@@ -18,7 +18,7 @@ function Projects() {
         <ProjectCard
           src={PhotoPort}
           link="https://nireves333.github.io/sample-web-photo"
-          h3="Mike Bahn's Portfolio Website"
+          h3="Mike Brahn's Portfolio Website"
           p="Mock photogrophy portoflio"
         />
         <ProjectCard
@@ -31,7 +31,7 @@ function Projects() {
           src={DbPharma}
           link="https://github.com/Nireves333/DrugstoreDB"
           h3="Pharmacy Database"
-          p="MySQL databse for a hypothetical drugstore chain"
+          p="MySQL database for a hypothetical drugstore chain"
         />
         <ProjectCard
           src={Microplastics}

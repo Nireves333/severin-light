@@ -11,9 +11,9 @@ function About() {
       <hr />
       <div className={styles.aboutContainer}>
         <p>
-          Welcome! I'm a soon-to-be graduate (August 2024) from California State
-          University, Monterey Bay, where I'm pursuing a degree in Software
-          Engineering.
+          Welcome! I'm a recent graduate from California State
+          University, Monterey Bay, with a degree in Software
+          Development.
         </p>
         <p>
           Besides programming, I enjoy reading and playing video games. My
